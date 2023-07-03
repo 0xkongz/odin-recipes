@@ -1,0 +1,45 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.darkMode {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    border-radius: 50px;
+    font-size: 50px;
+}
+
+body {
+    margin-bottom: 50px;
+    
+}
+img {
+    display: flex;
+    margin: auto;
+}
+
+ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+button {
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+
+footer {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}

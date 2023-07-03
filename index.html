@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes - FLH</title>
 </head>
 <body>
@@ -11,6 +12,19 @@
         <li><a href="recipes/tamagoyaki.html">Tamagoyaki</a></li>
         <li><a href="recipes/oyakodon.html">Oyakodon</a></li>
         <li><a href="recipes/japanesecurryrice.html">Japanese Curry Rice</a></li>
+        <li><a href="mailto:flhonggono@gmail.com">Suggest more! (via email)</a></li>
     </ul>
+    
 </body>
+<footer>
+    <button onclick="darkMode()">Toggle dark mode</button>
+    <script>
+        function darkMode() {
+          var element = document.body;
+          element.classList.toggle("darkMode");
+        }
+    </script>
+    This website is made following <a href="https://theodinproject.com/">The Odin Project</a><br>
+    Created in 2023 by 0xkongz
+</footer>
 </html>

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamagoyaki</title>
+    <link rel="stylesheet" href="recipestyles.css">
 </head>
 <body>
     <h1>Tamagoyaki</h1>
     <img src="https://www.allrecipes.com/thmb/spE-VIk4IrYrmTpGukCx5kFWlRA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7867003-d272fc2485c049d6bef677e1a008c6f1.jpg" alt="Tamagoyaki">
     <h2>Description</h2>
     <p>It's easy to make authentic Japanese food at home with this classic Japanese omelette recipe. Tamagoyaki is slightly sweet and seasoned with soy sauce, mirin, and dashi stock. It's a favorite in bento boxes and also makes an easy Japanese appetizer. Serve with shredded daikon and soy sauce for dipping.</p>
-    <ul>Ingredients:
+    <ul><div id="ingredients">Ingredients:</div>
         <li>4 eggs</li>
         <li>4 tablespoons prepared dashi stock</li>
         <li>1 tablespoon white sugar</li>
@@ -25,6 +26,17 @@
         <li>Repeat the process with the remaining oil and egg. Transfer rolled omelette to a bamboo rolling mat. Roll up tightly and allow to cool for a few minutes.</li>
         <li>Unwrap the omelette and slice into 6 pieces. Serve warm or cold.</li>
     </ol>
+    <a href="#top">Back to top</a><br><a href="../index.html">Back to home</a>
 </body>
-<footer><a href="#top">Back to top</a><br><a href="../index.html">Back to home</a></footer>
+<footer>
+    <button onclick="darkMode()">Toggle dark mode</button>
+    <script>
+        function darkMode() {
+          var element = document.body;
+          element.classList.toggle("darkMode");
+        }
+    </script>
+    This website is made following <a href="https://theodinproject.com/">The Odin Project</a><br>
+    Created in 2023 by 0xkongz
+</footer>
 </html>
