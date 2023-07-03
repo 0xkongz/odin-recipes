@@ -6,12 +6,12 @@ h1 {
     text-align: center;
     border-style: solid;
     border-radius: 50px;
-    font-size: 100px;
+    font-size: 10vw;
 }
 
 ul {
     text-align: left;
-    font-size: 50px;
+    font-size: 150%;
     list-style-position: inside;
 }
 
